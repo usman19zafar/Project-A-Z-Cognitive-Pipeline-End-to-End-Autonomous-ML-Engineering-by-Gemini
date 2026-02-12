@@ -1,4 +1,4 @@
-🏆 Cognitive Pipeline Tournament: 
+# Cognitive Pipeline Tournament: 
 
 AI Decision SystemProject Overview
 
