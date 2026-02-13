@@ -74,3 +74,24 @@ deploy.py: The logistics manager (saving the model).
 gui_predictor.py: The user interface.
 
 audit_model.py: The quality control inspector.
+
+```code
+│
+├── main.py                     <-- The Commander
+├── data\
+│   └── raw\
+│       └── Data.csv            <-- Your Dataset
+├── models\                     <-- Where .pkl files are saved
+│
+├── core\
+│   ├── __init__.py             <-- (Create this empty file)
+│   └── preprocessor.py         <-- The Auditor & Cleaner
+│
+└── engines\
+    ├── __init__.py             <-- (Create this empty file)
+    ├── classification.py       <-- Classification Tournament
+    ├── regression.py           <-- Regression Tournament
+    ├── deep_learning.py        <-- ANN / CNN Logic
+    ├── unsupervised.py         <-- Clustering / Association
+    └── dimensionality.py       <-- PCA / LDA Logic
+```
